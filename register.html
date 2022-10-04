@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>register</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <a class="active" href="index.html">Home</a>
+            <div class="info">
+                <a href="profile.html">Profile</a>
+                <a href="support.html">Support</a>
+                <a href="about.html">About</a>
+            </div>
+
+            <div class="info-login">
+                <a href="login.html">Log in</a>
+                <a href="register.html">Register</a>
+            </div>
+        </div>
+
+
+        <div class="logincont">
+            <form action="login-form">
+                <!-- First- Lastname -->
+                <label for="Uname"><b>Firstname</b></label>
+                <input type="fisrtname" class="input-field" placeholder="Enter Your Firstname" id="firstname">
+                <label for="Lname"><b>Lastname</b></label>
+                <input type="lastname" class="input-field" placeholder="Enter Your Lastname" id="lastname">
+                <!-- Email -->
+                <label for="Email"><b>Email</b></label>
+                <input type="email" class="input-field" placeholder="Enter your email" id="email">
+                <!-- Username -->
+                <label for="uname"><b>Username</b></label>
+                <input type="username" class="input-field" placeholder="Enter your Username" id="username">
+                <!-- Password -->
+                <label for="passwrd"><b>Password</b></label>
+                <input type="password" class="input-field" placeholder="Enter Password" id="password">
+                <input type="password" class="input-field" placeholder="Re-enter password" id="password">
+                <!-- Register button -->
+                <input type="submit" value="Register" id="register-form-submit">
+            </form>
+    
+            <div class="login">
+                <a class="register-link" href="login.html">Log in</a>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
